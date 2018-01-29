@@ -1,0 +1,31 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming Media Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrvinTehDo/streaming-media-assignment.git"
+  },
+  "keywords": [
+    "Streaming",
+    "Media",
+    "Assignment"
+  ],
+  "author": "Irvin Do",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrvinTehDo/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/IrvinTehDo/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
